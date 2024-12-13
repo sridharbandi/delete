@@ -1,0 +1,10 @@
+{
+    "spec": "tests/**/*.spec.ts",
+    "require": "./loader.js",
+    "reporter": ["allure-mocha"],
+    "reporter-options": [
+        "reportDir=reports",
+        "reportFilename=index",
+        "json=false"
+    ]
+}
