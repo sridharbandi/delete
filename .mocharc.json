@@ -1,7 +1,7 @@
 {
     "spec": "tests/**/*.spec.ts",
     "require": "./loader.js",
-    "reporter": ["mochawesome"],
+    "reporter": ["mocha-junit-reporter"],
     "reporter-options": [
         "reportDir=reports",
         "reportFilename=index",
