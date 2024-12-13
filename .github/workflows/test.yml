@@ -32,3 +32,8 @@ jobs:
         with:
           name: test-results
           path: test-results.xml
+
+      - name: Display test results in GitHub Actions
+        uses: mikepenz/action-junit-report@v3
+        with:
+          report_paths: 'test-results.xml'
